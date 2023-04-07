@@ -1,0 +1,14 @@
+def f (x):
+    return x*x
+liste=[2,3,4,5]
+print(list(map(f,liste)))
+print(list(map(lambda x:x*2,liste)))
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+fruits.count('apple')
+
+fruits.count('tangerine')
+
+print(fruits.index('banana'))
+tel = {'jack': 4098, 'sape': 4139}
+print(sorted(tel))
+print(list(tel))
